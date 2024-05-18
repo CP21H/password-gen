@@ -58,7 +58,7 @@ void passStrengthCheck(std::string password) {
     bool hasDigit = false;
     bool hasSymbol = false;
 
-    std::string specialChars = "£$&()*+[]@#^-_!?";
+    std::string specialChars = "£$&()*+[]@#^-_!?%";
     int uniqCharCount = 0;
     bool hasUniqueChars = false;
 
@@ -123,7 +123,7 @@ std::string passGen(int length) {
     std::string lowCase = "abcdefghijklmnopqrstuvxyz";
     std::string upCase = "ABCDEFGHIJKLMNOPQRSTUVXYZ";
     std::string Numbers = "0123456789";
-    std::string SpecialChar = "£$&()*+[]@#^-_!?";
+    std::string SpecialChar = "£$&()*+[]@#^-_!?%";
 
     std::string password = "";
     int charCategories = 4;
