@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Password Generator</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="description" content="" />
+        <link rel="icon" href="favicon.png">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <h1>Password Generator & Strength Checker</h1>
+        <h2>Password Generation</h2>
+        <label for="plength">Desired Password Length:</label>
+        <input type="text" id="plength"><br><br>
+        <button onclick="submRun()">Generate Password</button>
+        <p id="generatedPass"></p>
+
+
+        <br> <br>
+        <h2>Password Strength Check</h2>
+        <label for="userPassword">Password:</label>
+        <input type="text" id="userPassword"><br><br>
+        <button onclick="passStrCheck()">Check Password Strength</button>
+        <p id="passCheckResult"></p>
+
+    </body>
+</html>
